@@ -306,18 +306,34 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   margin: 0;
 }
+@media (max-width: 991px) and (min-width: 769px) {
+  #fh5co-header nav ul {
+    display: none;
+  }
+  .fh5co-nav-toggle{
+    display: block;
+    top:20px;
+  }
+}
 @media screen and (max-width: 768px) {
   #fh5co-header {
     margin: 0px 0 0 0;
   }
+
+}
+
+@media screen and (max-width: 415px) {
   #fh5co-header h1 a{
-    font-size: .7em;
-  }
-@media screen and (max-width: 500px) {
-  #fh5co-header h1 a{
-    font-size:.5em;
+    font-size: 0.7em;
   }
 }
+
+@media screen and (max-width: 350px) {
+  #fh5co-header h1 a{
+    font-size: 0.6em;
+  }
+}
+
 #fh5co-header .header-inner {
   height: 80px;
   padding-left: 20px;
@@ -367,7 +383,7 @@ h1, h2, h3, h4, h5, h6, figure {
   float: right;
   padding: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   #fh5co-header nav {
     display: none;
   }
@@ -1134,7 +1150,8 @@ h1, h2, h3, h4, h5, h6, figure {
   display: none;
   cursor: pointer;
 }
-@media screen and (max-width: 768px) {
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+@media screen and (max-width: 991px) {
   .fh5co-nav-toggle {
     display: block;
     top: 20px;
