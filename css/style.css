@@ -888,7 +888,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 0 0;
   float: left;
   width: 100%;
   position: relative;
@@ -899,6 +899,7 @@ h1, h2, h3, h4, h5, h6, figure {
     padding: 3em 0;
   }
 }
+
 #fh5co-footer h2, #fh5co-footer h3, #fh5co-footer h4 {
   color: #fff;
 }
