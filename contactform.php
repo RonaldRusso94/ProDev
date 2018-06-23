@@ -11,8 +11,8 @@
 		$txt = "You have recieved an e-mail from ".$name.".\n\n".$message;
 
 
-		mail($mailTo, $subject, $txt, $headers);
-		header("Location: index.php?mailsend");
+		mail($mailTo, $txt, $headers);
+		header("Location: contactform.php");
 	}
 
  ?>
