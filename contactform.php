@@ -11,5 +11,4 @@ if(isset($_POST['submit'])) {
 	mail($mailTo, $headers, $txt);
 	header("Location: contactform.php");
 }
-
 ?>
